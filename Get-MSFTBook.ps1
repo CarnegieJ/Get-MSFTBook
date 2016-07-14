@@ -79,12 +79,6 @@ Function Get-MSFTBook {
 
     $resource = ''
     $nl = [System.Environment]::NewLine
-    Register-ObjectEvent -InputObject $www -EventName 'DownloadProgressChanged' `
-      -SourceIdentifier 'MSFTBook.DownloadProgressChanged' `
-      -Action {
-        Write-Progress -Activity "Downloading: $($EventArgs.ProgressPercentage)% Completed" `
-          -Status $MsftBook -PercentComplete $EventArgs.ProgressPercentage; 
-      }    
   }
 
   Process {
@@ -139,8 +133,6 @@ Function Get-MSFTBook {
   }
 
   End {
-    Unregister-Event -SourceIdentifier 'MSFTBook.DownloadProgressChanged' -Force
-    Get-Job -Name 'MSFTBook.DownloadProgressChanged' | Remove-Job -Force
     $www.Dispose()
     $output
   }
