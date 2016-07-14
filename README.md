@@ -13,7 +13,7 @@ Licensed under the MIT License, (the "License");
 you may not use this code except in compliance with the License.
 You may obtain a copy of the License at
 
-    https://opensource.org/licenses/MIT
+    <https://opensource.org/licenses/MIT>
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
