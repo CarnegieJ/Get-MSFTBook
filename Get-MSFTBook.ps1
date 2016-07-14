@@ -22,8 +22,10 @@
 .NOTES
    Name:    Get-MSFTBook
    Author:  Carnegie Johnson, MCT
+   Email:   CarnegieJ@msn.com
    Twitter: @CarnegieJ
    Created: 2016-Jul-12
+   Copyright (c) 2016 Carnegie Johnson
 
 .LINK
    https://IAYFConsulting.com/Carnegie
