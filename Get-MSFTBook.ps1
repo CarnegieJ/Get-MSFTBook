@@ -27,6 +27,8 @@
    Created: 2016-Jul-12
    Copyright (c) 2016 Carnegie Johnson
 
+   Thank you to Microsoft Director of Sales Excellence - Eric Ligman
+   for the inspiration to create this script. God bless you and our Microsoft family.
 .LINK
    https://IAYFConsulting.com/Carnegie
 .EXAMPLE
@@ -139,3 +141,14 @@ Function Get-MSFTBook {
     $output
   }
 }
+
+# Source of "Download All" list for Microsoft FREE eBooks
+$MsftBooks = "http://www.mssmallbiz.com/ericligman/Key_Shorts/MSFTFreeEbooks.txt"
+# Get contents of the book list and split each line into an object collection
+$URLs = (Invoke-WebRequest -URI $MsftBooks).Content.Split("`n").Trim()
+# Filter object colletion for URL's in HTTP:// or FTP:// protocol formats
+$URLs = $URLs | ?{$_ -match '(http[s]?|[s]?ftp[s]?)(:\/\/)([^\s,]+)'}
+# Filter duplicate URL's
+$URLs = $URLs | Sort-Object | Get-Unique
+# Retrieve each eBook into "Downloads" folder and output to grid
+$URLs | %{Get-MSFTBook -MsftBook $_ -DestinationFolder "C:\Downloads\Microsoft\eBooks"} | Out-GridView
