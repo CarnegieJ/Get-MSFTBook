@@ -29,8 +29,17 @@ in a text file.
   </tr>
 </table>
 
-   Thank you to Microsoft Director of Sales Excellence - [Eric Ligman](https://twitter.com/ericligman/)
-   for the inspiration to create this script. God bless you and our Microsoft family.
+Thank You
+---------
+
+This work is dedicated to colleagues in the Microsoft community and special thanks to Microsoft Director of Sales Excellence - [Eric Ligman](https://twitter.com/ericligman/) for the inspiration to create this script. God bless and keep our Microsoft family.
+
+On July 10, 2016, Eric blogged,
+```text
+FREE! That’s Right, I’m Giving Away MILLIONS of FREE Microsoft eBooks again!
+Including: Windows 10, Office 365, Office 2016, Power BI, Azure, Windows 8.1, Office 2013, SharePoint 2016, SharePoint 2013, Dynamics CRM, PowerShell, Exchange Server, System Center, Cloud, SQL Server and more!
+```
+at this link, [FREE Microsoft eBooks](https://blogs.msdn.microsoft.com/mssmallbiz/2016/07/10/free-thats-right-im-giving-away-millions-of-free-microsoft-ebooks-again-including-windows-10-office-365-office-2016-power-bi-azure-windows-8-1-office-2013-sharepoint-2016-sha/)   
 
 License & Authors
 -----------------
