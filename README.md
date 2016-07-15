@@ -1,5 +1,36 @@
 # Get-MSFTBook
-PowerShell fuction to retrieve Microsoft eBook from web location.
+PowerShell script to retrieve Microsoft FREE eBooks from respective web locations listed
+in a text file.
+
+<table>
+  <tr>
+    <td>Name:</td>
+    <td>Get-MSFTBook.ps1</td>
+  </tr>
+  <tr>
+    <td>Author:</td>
+    <td>Carnegie Johnson, MCT
+   </td>
+  </tr>
+  <tr>
+    <td>Email:</td>
+    <td>CarnegieJ@msn.com</td>
+  </tr>
+  <tr>
+    <td>Twitter:</td>
+    <td><a href="https://twitter.com/carnegiej/">@CarnegieJ</a></td>
+  </tr>
+  <tr>
+    <td>Created:</td>
+    <td>2016-Jul-12</td>
+  </tr>
+  <tr>
+    <td colspan="2"> Copyright (c) 2016 Carnegie Johnson </td>
+  </tr>
+</table>
+
+   Thank you to Microsoft Director of Sales Excellence - [Eric Ligman](https://twitter.com/ericligman/)
+   for the inspiration to create this script. God bless you and our Microsoft family.
 
 License & Authors
 -----------------
